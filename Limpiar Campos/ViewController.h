@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SecondViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *campoTxt1;
+@property (weak, nonatomic) IBOutlet UITextField *campoTxt3;
+- (IBAction)entrar:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *campoTxt2;
 
 @end
 

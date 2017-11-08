@@ -15,6 +15,8 @@
 		A9A122661FB2A9C600267C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A122651FB2A9C600267C1C /* main.m */; };
 		A9A122701FB2A9C600267C1C /* Limpiar_CamposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A1226F1FB2A9C600267C1C /* Limpiar_CamposTests.m */; };
 		A9A1227B1FB2A9C600267C1C /* Limpiar_CamposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A1227A1FB2A9C600267C1C /* Limpiar_CamposUITests.m */; };
+		A9A1228B1FB2AB6D00267C1C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A122891FB2AB6D00267C1C /* SecondViewController.m */; };
+		A9A1228C1FB2AB6D00267C1C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A1228A1FB2AB6D00267C1C /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A9A122761FB2A9C600267C1C /* Limpiar CamposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Limpiar CamposUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A1227A1FB2A9C600267C1C /* Limpiar_CamposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Limpiar_CamposUITests.m; sourceTree = "<group>"; };
 		A9A1227C1FB2A9C600267C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A122881FB2AB6D00267C1C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A9A122891FB2AB6D00267C1C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A9A1228A1FB2AB6D00267C1C /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				A9A122611FB2A9C600267C1C /* LaunchScreen.storyboard */,
 				A9A122641FB2A9C600267C1C /* Info.plist */,
 				A9A122651FB2A9C600267C1C /* main.m */,
+				A9A122881FB2AB6D00267C1C /* SecondViewController.h */,
+				A9A122891FB2AB6D00267C1C /* SecondViewController.m */,
+				A9A1228A1FB2AB6D00267C1C /* SecondViewController.xib */,
 			);
 			path = "Limpiar Campos";
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A1228C1FB2AB6D00267C1C /* SecondViewController.xib in Resources */,
 				A9A122631FB2A9C600267C1C /* LaunchScreen.storyboard in Resources */,
 				A9A122601FB2A9C600267C1C /* Assets.xcassets in Resources */,
 				A9A1225E1FB2A9C600267C1C /* Main.storyboard in Resources */,
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A1228B1FB2AB6D00267C1C /* SecondViewController.m in Sources */,
 				A9A1225B1FB2A9C600267C1C /* ViewController.m in Sources */,
 				A9A122661FB2A9C600267C1C /* main.m in Sources */,
 				A9A122581FB2A9C500267C1C /* AppDelegate.m in Sources */,
