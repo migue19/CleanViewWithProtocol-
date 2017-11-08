@@ -37,6 +37,13 @@
 
 - (IBAction)goBack:(id)sender {
     
+    if ( _delegateSecondVC != nil) {
+        [_delegateSecondVC limpiarCampos];
+        //getAddress(latitud: point.latitude, longitud: point.longitude)
+    }else{
+        NSLog(@"no carga protocolo");
+    }
+    
     ViewController *vc = [[ViewController alloc]init];
     [vc limpiarCampos];
     [self dismissViewControllerAnimated:YES completion:nil];

@@ -29,14 +29,19 @@
 
 - (IBAction)entrar:(id)sender {
     SecondViewController *secondView = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    secondView.delegateSecondVC = self;
+    
     [self presentViewController:secondView animated:true completion:nil];
     
 }
 - (void)limpiarCampos {
-    [_campoTxt3 setText:@""];
+    [_campoTxt1 setText:@""];
     [_campoTxt2 setText:@""];
     [_campoTxt3 setText:@""];
 }
+
+
+
 
 
 
