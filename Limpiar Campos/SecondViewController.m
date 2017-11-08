@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [_campo1Lbl setText: _nombre];
+    [_campo2Lbl setText:_apellidos];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,16 +38,13 @@
 */
 
 - (IBAction)goBack:(id)sender {
-    
     if ( _delegateSecondVC != nil) {
         [_delegateSecondVC limpiarCampos];
-        //getAddress(latitud: point.latitude, longitud: point.longitude)
+
     }else{
         NSLog(@"no carga protocolo");
     }
     
-    ViewController *vc = [[ViewController alloc]init];
-    [vc limpiarCampos];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
